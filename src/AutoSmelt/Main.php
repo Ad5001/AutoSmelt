@@ -20,7 +20,7 @@ use pocketmine\Level;
 class Main extends PluginBase implements Listener{
 
 public function onEnable(){
-$this->getServer()->getLogger()->info(TextFormat::BLUE."[AutoSmelt]Plugin Enabled!");
+$this->getServer()->getLogger()->info("[AutoSmelt]Plugin Enabled!");
 $this->getServer()->getPluginManager()->registerEvents($this,$this);
       $this->ores=array(14,15,16,73,56);
  $this->ingot=array(
